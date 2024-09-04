@@ -1,0 +1,172 @@
+body {
+  background: #f3f3f3;
+  text-align: center;
+}
+.App {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.header {
+    background-color: #ebeef2;
+    color: rgb(24, 209, 77);
+    padding: 5px;
+    text-align: center;
+} 
+
+.input {
+  display: block;
+  width: 100%;
+  /* margin-bottom: 15px; */
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+#firstname {
+  display: block;
+    background-color: #ebeef2;
+    color: rgb(24, 209, 77);
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+}
+#lastname {
+  display: block;
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+}
+#mail {
+  display: block;
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+}
+#number {
+  display: block;
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;           
+}
+.gender {   
+  
+  background-color: #ebeef2;
+  color: rgb(29, 228, 109);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+#male{
+  display: inline;
+  justify-content: space-between;
+  margin: 10px;
+}
+#female{
+  display: inline;
+  justify-content: space-between;
+  margin: 10px;
+}
+#other{
+  display: inline;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Sub{
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.resume{
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.URL{
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+#url{
+  display: block;
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.fruits{
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+#fruits{
+  display: block;
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+}
+
+.reset{
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block;
+} 
+
+.submit{
+  background-color: #ebeef2;
+  color: rgb(24, 209, 77);
+  padding: 5px;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  display: block; 
+}
