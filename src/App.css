@@ -33,99 +33,103 @@ body {
 
 #firstname {
   display: block;
-    background-color: #ebeef2;
+  width: 90%;
+    /* background-color: #ebeef2; */
     color: rgb(24, 209, 77);
     padding: 5px;
-    text-align: center;
+    text-align: left;
     margin: 10px auto;
+    /* border-radius: 10px; */
 }
 #lastname {
   display: block;
-  background-color: #ebeef2;
+  width: 90%;
+  /* background-color: #ebeef2; */
   color: rgb(24, 209, 77);
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;
 }
 #mail {
   display: block;
-  background-color: #ebeef2;
+  width: 90%;
+  /* background-color: #ebeef2; */
   color: rgb(24, 209, 77);
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;
 }
 #number {
   display: block;
-  background-color: #ebeef2;
+  width: 90%;
+  /* background-color: #ebeef2; */
   color: rgb(24, 209, 77);
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;           
 }
 .gender {   
-  
-  background-color: #ebeef2;
-  color: rgb(29, 228, 109);
+  /* background-color: #ebeef2; */
+  color: black;
   padding: 5px;
-  text-align: center;
-  margin: 10px auto;
-  margin-bottom: 15px;
+  text-align: left;
+  margin: 5px auto;
+  /* margin-bottom: 10px; */
   display: block;
 }
 
 #male{
   display: inline;
   justify-content: space-between;
-  margin: 10px;
+  margin: 5px;
 }
 #female{
   display: inline;
   justify-content: space-between;
-  margin: 10px;
+  margin: 5px;
 }
 #other{
   display: inline;
   justify-content: space-between;
-  margin: 10px;
+  margin: 5px;
 }
 
 .Sub{
-  background-color: #ebeef2;
-  color: rgb(24, 209, 77);
+  /* background-color: #ebeef2; */
+  color: black;
   padding: 5px;
-  text-align: center;
-  margin: 10px auto;
-  margin-bottom: 15px;
+  text-align: left;
+  margin: 5px auto;
+  /* margin-bottom: 10px; */
   display: block;
 }
 
 .resume{
-  background-color: #ebeef2;
-  color: rgb(24, 209, 77);
+  /* background-color: #ebeef2; */
+  color: black;
   padding: 5px;
-  text-align: center;
-  margin: 10px auto;
-  margin-bottom: 15px;
+  text-align: left;
+  margin: 5px auto;
+  /* margin-bottom: 15px; */
   display: block;
 }
 
 .URL{
-  background-color: #ebeef2;
-  color: rgb(24, 209, 77);
+  /* background-color: #ebeef2; */
+  color: black;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   display: block;
 }
 
 #url{
   display: block;
   background-color: #ebeef2;
-  color: rgb(24, 209, 77);
+  color:black;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;
   margin-bottom: 15px;
   display: block;
@@ -133,20 +137,32 @@ body {
 
 .fruits{
   background-color: #ebeef2;
-  color: rgb(24, 209, 77);
+  color: black;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;
   margin-bottom: 15px;
   display: block;
+  overflow: 'auto'
 }
 
 #fruits{
   display: block;
   background-color: #ebeef2;
-  color: rgb(24, 209, 77);
+  color: black;
   padding: 5px;
-  text-align: center;
+  text-align: left;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  overflow: 'auto'
+}
+
+.about{
+  display: block;
+  background-color: #ebeef2;
+  color: black;
+  padding: 5px;
+  text-align: left;
   margin: 10px auto;
   margin-bottom: 15px;
 }
@@ -155,7 +171,7 @@ body {
   background-color: #ebeef2;
   color: rgb(24, 209, 77);
   padding: 5px;
-  text-align: center;
+  text-align: right;
   margin: 10px auto;
   margin-bottom: 15px;
   display: block;
@@ -165,7 +181,7 @@ body {
   background-color: #ebeef2;
   color: rgb(24, 209, 77);
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin: 10px auto;
   margin-bottom: 15px;
   display: block; 

@@ -43,21 +43,21 @@ function App() {
   return (
     <div className='App'>
       <div className='header'><h1>Form in React</h1></div>
-        <form action="/submit-form" method="post">
+        <form >
 
         <label htmlFor="firstname">First Name*</label>
-        <input type="text" id="firstname" name="firstname" required onChange={(e) => setFirstName(e.target.value)}/>
+        <input type="text" placeholder='Enter your first name' id="firstname" name="firstname" required onChange={(e) => setFirstName(e.target.value)}/>
 
         <label htmlFor="lastname">Last Name*</label>
-          <input type="text" id="lastname" name="lastname" required onChange={(e) => setLastName(e.target.value)}/>
+          <input type="text" placeholder='Enter your last name' id="lastname" name="lastname" required onChange={(e) => setLastName(e.target.value)}/>
 
         <label htmlFor="Email">Email*</label>
-          <input type="mail" id="mail" name="mail" required onChange={(e) => setEmail(e.target.value)}/>
+          <input type="e-mail" placeholder='Enter your email' id="mail" name="mail" required onChange={(e) => setEmail(e.target.value)}/>
 
         <label htmlFor="tel">Contact Number*</label>
-          <input type="tel" id="number" name="number" required onChange={(e) => setContactNumber(e.target.value)}/>
+          <input type="tel" placeholder='Enter your contact number' id="number" name="number" required onChange={(e) => setContactNumber(e.target.value)}/>
 
-        <label htmlFor="gender" className='gender'>gender*</label>
+        <label htmlFor="gender" className='gender'>Gender*</label>
             <input type="radio" id="male" name="gender" value="male" required onChange={(e) => setGender(e.target.value)}/> Male
             <input type="radio" id="female" name="gender" value="female" required onChange={(e) => setGender(e.target.value)}/> Female
             <input type="radio" id="other" name="gender" value="other" required onChange={(e) => setGender(e.target.value)}/> Other
